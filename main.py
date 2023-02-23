@@ -125,7 +125,7 @@ def active_node_handler():
     net_connect.write_channel(f"{node['another_password']}\n")
     time.sleep(2)
 
-    redispatch(net_connect, device_type = node['device_type'])
+    redispatch(net_connect, device_type=node['device_type'])
 
     get_hostname()
     show_up_interface()
