@@ -1,0 +1,16 @@
+{
+    "jumpserver": {
+        "device_type": "autodetect",
+        "ip": "",
+        "username": "",
+        "password": ""
+    },
+
+    "node": {
+        "device_type": "cisco_xr",
+        "ssh_user": "",
+        "password": "",
+        "another_password": ""
+    }
+    
+}
