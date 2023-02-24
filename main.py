@@ -161,7 +161,7 @@ def node_connection(ip_list):
             active_node_handler()
         
         elif node_respond == ssh_command:
-            no_respond = f'{ip} is not responding\n\n'
+            no_respond = f'{ip} is not responding'
             print(f'{no_respond}\n')
             log_file.write(no_respond + '\n\n')
             net_connect.write_channel('\3')
